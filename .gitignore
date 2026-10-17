@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model files & weights
+*.keras
+*.h5
+*.joblib
+*.pkl
+*.pt
+*.onnx
+*.tflite
+models/*
+!models/.gitkeep
+
+# Database & Storage
+*.db
+*.sqlite3
+database/*
+!database/.gitkeep
+
+# Datasets
+datasets/raw/*
+!datasets/raw/.gitkeep
+datasets/processed/*
+!datasets/processed/.gitkeep
+
+# Uploads & Temp files
+uploads/*
+!uploads/.gitkeep
+temp_video.mp4
+annotated_output.mp4
+*.mp4
+*.avi
+*.mov
+
+# Environment & Dependencies
+.env
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# Logs & Caches
+*.log
+.pytest_cache/
+.coverage
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
